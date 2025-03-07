@@ -7,8 +7,8 @@ import utime as time
 from machine import Pin
 from neopixel import NeoPixel
 
-WIFI_SSID = 'Abdullah123'
-WIFI_PASS = 'Abdullah7'
+WIFI_SSID = "HackerMan"
+WIFI_PASS = "HackerMan1100"
 BLYNK_AUTH = "SJpHYOITgUfdaiS39LUOvDlktMOVjNfS"
 
 print("Connecting to WiFi network '{}'".format(WIFI_SSID))
