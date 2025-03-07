@@ -22,8 +22,6 @@ print('WiFi IP:', wifi.ifconfig()[0])
 print("Connecting to Blynk server...")
 blynk = blynklib.Blynk(BLYNK_AUTH)
 
-
-
 i2c = I2C(1, scl=Pin(9), sda=Pin(8), freq= 200000)
 oled = ssd1306.SSD1306_I2C(128, 64, i2c)
 
@@ -40,8 +38,6 @@ def split_text(text, max_chars_per_line=16):
             line = line[max_chars_per_line:]
         lines.append(line)  # Add the remaining part of the line
     return lines
-
-
 
 def display_text(text):
     oled.fill(0)  # Clear the display

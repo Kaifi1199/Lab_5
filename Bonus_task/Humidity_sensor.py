@@ -9,8 +9,8 @@ import time
 
 
 # WiFi Credentials
-WIFI_SSID = "Abdullah123"     
-WIFI_PASS = "Abdullah7"  
+WIFI_SSID = "HackerMan"     
+WIFI_PASS = "HackerMan1100"  
 
 # Blynk Auth Token 
 BLYNK_AUTH = "J5Nt9AqWrkWnkyRbXVHoDj8BzMf_hhQi"
